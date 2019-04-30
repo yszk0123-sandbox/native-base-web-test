@@ -25,5 +25,10 @@ module.exports = override(
     path.resolve('node_modules/react-native-tab-view'),
     path.resolve('node_modules/static-container'),
   ]),
-  addBabelPlugins('@babel/plugin-proposal-class-properties'),
+  addBabelPlugins(
+    '@babel/plugin-proposal-class-properties',
+    // Workaround for native-base
+    // @see https://github.com/GeekyAnts/NativeBase-KitchenSink/issues/155#issuecomment-480326458
+    '@babel/plugin-transform-modules-commonjs',
+  ),
 );

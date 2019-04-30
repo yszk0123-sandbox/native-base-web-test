@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
     "customize-cra": "^0.2.12",
     "react-app-rewired": "^2.1.3"
   }
