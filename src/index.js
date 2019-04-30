@@ -1,3 +1,4 @@
+import './use-ios-theme';
 import { AppRegistry } from 'react-native';
 import './index.css';
 import App from './App';
