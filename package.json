@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-navigation/core": "^3.4.1",
+    "@react-navigation/web": "^1.0.0-alpha.7",
     "native-base": "^2.12.1",
     "react": "^16.8.6",
     "react-art": "^16.8.6",
