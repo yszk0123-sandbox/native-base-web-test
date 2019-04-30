@@ -1,7 +1,7 @@
 import './use-ios-theme';
 import { AppRegistry } from 'react-native';
 import './index.css';
-import App from './App';
+import { App } from './navigation/AppNavigator';
 import * as serviceWorker from './serviceWorker';
 
 AppRegistry.registerComponent('App', () => App);
